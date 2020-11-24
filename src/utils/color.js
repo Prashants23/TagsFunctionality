@@ -1,0 +1,1 @@
+export const SUGGETIONBACKGROUNDCOLOR="#79abc9"
