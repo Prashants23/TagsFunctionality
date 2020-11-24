@@ -9,9 +9,7 @@
     "axios": "^0.19.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "react-tag-autocomplete": "^6.1.0",
-    "react-tag-input-custom-search": "^5.9.26"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
