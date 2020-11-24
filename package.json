@@ -9,7 +9,12 @@
     "axios": "^0.19.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+<<<<<<< HEAD
     "react-scripts": "3.4.1"
+=======
+    "react-scripts": "3.4.1",
+   
+>>>>>>> f8142f4d2f20f8430b1af7fdd6dcb1227c482796
   },
   "scripts": {
     "start": "react-scripts start",
