@@ -42,20 +42,17 @@ class InputTag extends Component {
   };
 
   showSuggetsionBox = (value) => {
-    console.log(value.target.value);
     const inputText = value.target.value;
-    console.log(this.props.suggestion);
     const arr = this.props.suggestion;
     const val = value.target.value;
-    const test = this.props.suggestion.filter((data) => {
+    const suggestedData = this.props.suggestion.filter((data) => {
       return data.substr(0, val.length).toUpperCase() === val.toUpperCase()
         ? data
         : null;
     });
-    console.log("test", test);
     this.setState({
       ifSuggestionBox: inputText.length > 0 ? true : false,
-      suggestedData: test,
+      suggestedData: suggestedData,
       inputedText: inputText,
     });
   };
