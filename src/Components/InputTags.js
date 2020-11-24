@@ -103,9 +103,9 @@ class InputTag extends Component {
                 </table>
               );
             })}{" "}
-            {this.state.suggestedData.length == 0
-              ? this.state.inputedText
-              : null}
+            {
+            this.state.inputedText
+              }
           </div>
         </div>
       </>
